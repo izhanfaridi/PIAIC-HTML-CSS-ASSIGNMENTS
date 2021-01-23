@@ -84,3 +84,155 @@
     border-left-color: rgb(255, 174, 0);
 
 }
+.adv-div h1{
+    text-align: center;
+    color: rgb(98, 151, 18);
+}
+.adv-div h1 p{
+   color: black;
+   display: inline;
+}
+.innov-text-div{
+    width: 200px;
+}
+
+.innov-div, .quality-div, .experience-div, .clients-div, .support-div{
+    width: 100px;
+    height: 100px;
+}
+
+.innov{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    position: relative;
+    left:50px;
+}
+
+.innov-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    position: relative;
+    top: 10px;
+}
+
+
+.innov-head, .quality-head, .experience-head, .clients-head, .support-head{
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: center;
+}
+.innov-text, .quality-text, .experience-text, .clients-text, .support-text{
+    font-size: 0.75em;
+    text-align: center;
+    color: gray;
+}
+
+
+.quality{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    position: relative;
+    bottom: 100px;
+    left: 290px;
+}
+
+.quality-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    position: relative;
+    top: 15px;
+}
+
+.quality-text-div{
+    width: 200px;
+    position: relative;
+    left: 240px;
+    bottom: 100px;
+}
+
+.experience{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    position: relative;
+    bottom: 200px;
+    left: 535px;
+}
+
+.experience-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    position: relative;
+    top: 13px;
+}
+
+.experience-text-div{
+    width: 200px;
+    position: relative;
+    left: 485px;
+    bottom: 200px;
+}
+
+.clients{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    position: relative;
+    bottom: 300px;
+    left: 780px;
+}
+
+.clients-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    position: relative;
+    top: 13px;
+}
+
+.clients-text-div{
+    width: 200px;
+    position: relative;
+    left: 730px;
+    bottom: 300px;
+}
+
+
+.support{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    position: relative;
+    bottom: 400px;
+    left: 1050px;
+}
+
+.support-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    position: relative;
+    top: 15px;
+}
+
+.support-text-div{
+    width: 200px;
+    position: relative;
+    left: 1000px;
+    bottom: 400px;
+}
