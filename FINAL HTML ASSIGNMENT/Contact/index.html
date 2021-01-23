@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DirectConnect</title>
+</head>
+<body style="padding: 0px 20px;">
+    <div style="border-radius: 20px; background-color: #00394D; position: relative; top: -8px; left: 52px; width: 1100px; height: 100px;" >
+        <img src="../Images/direct-connect.png" alt="logo" height="90px" width="140px" style="margin:10px 0px 0px 23px;">
+        <a href="../Home/index.html" style="position: absolute; margin: 65px 0px 0px 40px; font-size: 1.7em; color:#fff; text-decoration:none; font-family:Georgia, 'Times New Roman', Times, serif;">HOME</a>
+        <a href="../About/index.html" style="position: absolute; margin: 65px 0px 0px 160px; font-size: 1.7em; color:#fff; text-decoration: none; font-family:Georgia, 'Times New Roman', Times, serif;">ABOUT</a>
+        <a href="../Contact/index.html" style="position: absolute; margin: 65px 0px 0px 290px; font-size: 1.7em; color:#fff; text-decoration: none; font-family:Georgia, 'Times New Roman', Times, serif;">CONTACT</a>
+        <a href="../Portfolio/index.html" style="position: absolute; margin: 65px 0px 0px 460px; font-size: 1.7em; color:#fff; text-decoration: none; font-family:Georgia, 'Times New Roman', Times, serif;">PORTFOLIO</a>
+    </div>
+    <form action="GET" style="padding: 0px 100px;">
+        <fieldset style="border-radius: 10px; border: #00394D 2px solid;">
+            <legend>Your Details</legend>
+            <label for="name">Name: </label><input type="text" id="name"  size="25" maxlength="25" required> <br><br>
+            <label for="email">Email: </label><input type="email" id="email" size="25" required>
+        </fieldset>
+        <br>
+        <fieldset style="border-radius: 10px; border: #00394D 2px solid;">
+            <legend>Your Review</legend>
+            <label for="info">How did you hear about us? </label>
+            <select name="source" id="source">
+                <option value="google">Google</option>
+                <option value="facebook">Facebook</option>
+                <option value="twitter">Twitter</option>
+                <option value="insta">Instagram</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label>Would you like to visit us again?</label><br>
+            <input type="radio" id="visit" name="visit" value="yes" checked>Yes
+            <input type="radio" id="visit" name="visit" value="no">No
+            <input type="radio" id="visit" name="visit" value="maybe">Maybe
+            <br><br>
+            <label for="Comments">Comments:</label><br>
+            <textarea name="comments" id="comments" cols="60" rows="8"></textarea>
+            <br>
+            <br>
+            <input type="checkbox" id="news"> <label for="news">Sign me up for email updates</label><br><br>
+            <input type="submit" style="border-radius: 20px; width: 70px; height: 30px;">
+        </fieldset>
+    </form>
+    <br>
+    <h3 style="color: #00394D; position: relative; left: 100px; text-decoration: underline; font-size: 1.3em;">WHERE ARE WE LOCATED:</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14472.731533214725!2d67.0899902!3d24.925839!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f1774a52a731111!2sPIAIC%20(Gulshan%20Campus)!5e0!3m2!1sen!2s!4v1608625501203!5m2!1sen!2s" width="600" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0" style="border: solid #00394d 2px; border-radius: 10px; position: relative; left: 320px;"></iframe>
+
+    <div style="border-radius: 20px; background-color: #00394D; position: relative; bottom: -10px; left: 80px; width: 1100px; height: 40px; text-align: center; padding: 0px;">
+        <p style="font-size: 1.1em; font-family:Georgia, 'Times New Roman', Times, serif; color: #ffffff; padding-top: 10px; position: relative; bottom: 5px;">Copyright &#169; 2020. All rights reserved</p>
+    </div>
+</body>
+</html>

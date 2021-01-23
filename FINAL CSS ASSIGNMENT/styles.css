@@ -1,0 +1,86 @@
+.navbar .container-fluid .collapse .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    align-content: stretch;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100%;
+    font-size: 0.8em;
+    word-spacing: 15px;
+    padding-left: 10px;
+    letter-spacing: 0.8px;
+    
+}
+
+.cont{
+    display: inline;
+    position: absolute;
+    right: 50px;
+    
+}
+
+.logos{
+    position: relative;
+    bottom: 2.5px;
+}
+
+.header button{
+    background-color: #a2d84c;
+    border: none;
+    margin-top: 5px;
+    height: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 500px;
+    background-color: #86cc16;
+}
+
+.text-div{
+    background-color: #66a500;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.text-div p{
+    color: white;
+    font-weight: bolder;
+    font-size: 4em;
+    position: relative;
+    bottom: 10px;
+}
+
+.info-text{
+    padding-left:300px;
+    padding-right: 300px;
+    text-align: center;
+    position: relative;
+    top: 170px;
+    color: rgba(245, 245, 245, 0.925);
+}
+
+.read-more{
+    background-color: gold;
+    font-size: 18px;
+    font-weight:500;
+    border:none;
+    border-radius: 5px;
+    border-bottom-style: ridge;
+    border-left-style: ridge;
+    border-bottom-color: rgb(255, 174, 0);
+    border-left-color: rgb(255, 174, 0);
+
+}

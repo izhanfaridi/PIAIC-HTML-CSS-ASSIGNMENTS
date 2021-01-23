@@ -1,0 +1,24 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.main-head, .sub-head, .course-head{
+    color: rgb(61, 58, 58);
+    text-shadow:-1.3px 1px rgb(151, 148, 148);
+}
+
+.course-list{
+    line-height: 3em;
+}
+
+.cnc{
+    color: rgb(37, 165, 216);
+}
+
+.course-head::first-letter{
+    font-size: 2em;
+}
+
+.link{
+    text-align: center;
+}
