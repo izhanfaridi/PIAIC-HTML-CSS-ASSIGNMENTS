@@ -1,111 +1,491 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>FINAL CSS ASSIGNMENT</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-    <div class="header">
-        <img class="logos" src="./images/icons8-facebook-100.png" width="35px" height="35px">
-        <img class="logos" src="./images/icons8-twitter-48.png" width="35px" height="35px">
-        <img class="logos" src="./images/icons8-instagram-48.png" width="35px" height="35px">
-        <img class="logos" src="./images/icons8-google-plus-circled-50.png" width="35px" height="35px">
-        <div class="cont"><img class="call-logo" src="./images/icons8-call-52.png" width="15px" height="15px">+92(304)386-6719  <img src="./images/icons8-call-52.png" width="15px" height="15px">+92(317)011-3001
-    <button class="call-button" type="button">Call Me Back</button></div>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./images/PanaCloud logo.JPG" width="100" height="40"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Reviews</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Our Skill</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact us</a>
-              </li>
-              
+
+<html>
+    <head>
+
+        <link href="./styles.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="TOP">
+
+            <div class="social">
+                <p id="fbbtn"> <input type="button" value="f">    </p>
+                <p id="twbtn"> <input type="button" value="tw">   </p>
+                <p id="gbtn">  <input type="button" value="g+">   </p>
+                <p id=inbtn>   <input type="button" value="in">   </p>
+                <p id=tubebtn> <input type="button" value="Tube"> </p>
+            </div>
+
+            <div class="call">
+               <figure id="callA">
+                   <img src="telephone.png"> +92(304) 386 - 6719
+               </figure>
+
+               <figure id="callB">
+                   <img src="telephone.png"> +92(304) 386 - 6720
+               </figure>
+
+               <p id="right">
+                  <input type="button" value="CALL ME BACK" id="righty">
+               </p>
+            </div>
+
+        </div>
+
+        <div class="TOP2">
+
+            <p id="left">
+                <img src="LOGOnew.png">
+            </p>
+
+            <ul id="list">
+                <li> <input type="button" value="why us"> </li>
+                <li> <input type="button" value="about"> </li>
+                <li> <input type="button" value="services"> </li>
+                <li id="liselect"> <input type="button" value="portfolio"> </li>
+                <li> <input type="button" value="process"> </li>
+                <li> <input type="button" value="reviews"> </li>
+                <li> <input type="button" value="our skills"> </li>
+                <li> <input type="button" value="contacts"> </li>
             </ul>
-         
-          </div>
-        </div>
-      </nav>
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="text-div"><p>WE ARE EXPERTS</p></div>
-            <div class="info-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam nec lectus eget hendrerit. Nulla facilisi. Nullam id pretium nibh. Praesent sed accumsan leo. Curabitur varius dignissim dui, sit amet scelerisque nunc.</p>
-            <button class="read-more" type="button">READ MORE</button></div>
-        </div>
-          <div class="carousel-item">
-            <div class="text-div"><p>SLIDE 2</p></div>
-          </div>
-          <div class="carousel-item">
-            <div class="text-div"><p>SLIDE 3</p></div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </a>
-      </div>
-      <div class="adv-div">
-        <h1><p>OUR</p> ADVANTAGES</h1>
-        <div class="innov-div">
-          <div class="innov"><img class="innov-img" src="./images/innovation.png"></div>
-          <div class="innov-text-div"><p class="innov-head">INNOVATION</p><p class="innov-text">lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
         </div>
 
-        <div class="quality-div">
-          <div class="quality"><img class="quality-img" src="./images/thumbs up.png"></div>
-          <div class="quality-text-div"><p class="quality-head">QUALITY</p><p class="quality-text">lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+        <div class="TOP3">
         </div>
-       
-        <div class="experience-div">
-          <div class="experience"><img class="experience-img" src="./images/clock.png"></div>
-          <div class="experience-text-div"><p class="experience-head">Experience</p><p class="experience-text">lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+        <div class="TOP3A">
+           <p></p>
+        </div>
+        <div class="TOP3B">
+           <p>we are experts</p>
+        </div>
+        <div class="TOP3C">
+           <p></p>
+        </div>
+        <div class="TOP3D">
+            <p>
+                An expert is someone who has a broad and deep competence in terms of knowledge,
+                skill and experience through practice and education in a particular field  
+            </p>
+        </div>
+        <div class="TOP3E">
+            <input type="button" value="READ MORE" id="bttn">
+        </div>
+        <div class="TOP3F">
+            <input type="button" id="x"> <input type="button"  id="y"> <input type="button"  id="z">
         </div>
 
-        <div class="clients-div">
-          <div class="clients"><img class="clients-img" src="./images/group.png"></div>
-          <div class="clients-text-div"><p class="clients-head">Happy Clients</p><p class="clients-text">lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+        <div class="TOP4">
+
+            <p id="fokat">.</p>
+            <p id="a">
+                our <span>advantages</span>
+            </p>
+            <p id="b">
+                Advantage, benefit, profit all mean something that is of use or value. Advantage
+                is anything that places one in an improved position
+            </p>
+    
+            <div class="TOP4A">
+                <div class="c">
+                    <figure id="logo1">
+                        <img src="circle1.png">
+                    </figure>
+                <p id="vv"> innovation </p>
+                <p id="vvv"> Innovation in its modern meaning is "a new idea, creative thoughts, new imaginations</p>
+                </div>
+    
+                <div class="d">
+                    <figure id="logo2">
+                        <img src="circle2.png">
+                    </figure>
+                    <p id="ww"> quality </p>
+                    <p id="www"> In business, engineering, and manufacturing, quality has a pragmatic interpretation</p>
+                </div>
+    
+                <div class="e">
+                    <figure id="logo3">
+                        <img src="circle3.png">
+                    </figure>
+                    <p id="xx"> experience </p>
+                    <p id="xxx">Experience is the first person effects or influence of an event or subject gained</p>
+                </div>
+    
+                <div class="f">
+                    <figure id="logo4">
+                        <img src="circle4.png">
+                    </figure>
+                    <p id="yy"> happy client </p>
+                    <p id="yyy">A client is a piece of computer hardware or software that accesses a service made available</p>
+                </div>
+    
+                <div class="g">
+                    <figure id="logo5">
+                        <img src="circle5.png">
+                    </figure>
+                    <p id="zz"> support </p>
+                    <p id="zzz">Support refers to services that entities provide to users of technology products or services</span>
+                </div>
+            </div>
+        
         </div>
 
-        <div class="support-div">
-          <div class="support"><img class="support-img" src="./images/chat.png"></div>
-          <div class="support-text-div"><p class="support-head">Support</p><p class="support-text">lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+        <div class="TOP5">
+
+            <p id="fokat">.</p>
+            <h1>about <span>us</span></h1>
+
+            <div class="TOP5A">
+                <p id="TOP5A1">A company, abbreviated as co., is a legal entity made up of an association of people, be they natural, legal, or a mixture of both.</p>
+                <p id="TOP5A2">A company, abbreviated as co., is a legal entity made up of an association of people, be they natural, legal, or a mixture of both, for carrying on a commercial or industrial enterprise. Company members share a common purpose.</p>
+                <p id="TOP5A3">A company, abbreviated as co., is a legal entity made up of an association of people, be they natural, legal, or a mixture of both, for carrying on a commercial or industrial enterprise. Company members share a common purpose, and unite to focus their various talents and organize their collectively available skills or resources to achieve specific.</p>
+            </div>
+
+            <p id="TOP5B">
+                <input type="button" value="READ MORE" id="btn">
+            </p>
+
         </div>
 
-      </div>
-      
-</body>
+        <div class="TOP6">
+
+            <p id="fokat">.</p>
+            <h1>our <span>services</span></h1>
+            <p id="o">A services, abbreviated as co., is a legal entity made up of an association of people, be they natural, legal, or a mixture of both abbreviated as co., is a legal entity made</p>
+
+            <div class="starboxes">
+
+                <div class="starbox1">
+                   <div class="j">
+                   </div>
+                   <div class="j1">
+                      <figure id="j11">
+                           <img src="star.png">
+                      </figure>
+                   </div>            
+                   <p id="jkl">web design</p>
+                   <p id="jklm">web design is a designing of web pages, basically we use HTML & CSS to design web pages for the websites</p>
+                   <p id="jklmn"> <input type="button" value="read more"> </p>
+                </div>
+               
+                <div class="starbox2">
+                   <div class="k">
+                   </div>
+                   <div class="k1">
+                      <figure id="k11">
+                           <img src="star.png">
+                      </figure>
+                   </div>            
+                   <p id="klm">web design</p>
+                   <p id="klmn">web design is a designing of web pages, basically we use HTML & CSS to design web pages for the websites</p>
+                   <p id="klmno"> <input type="button" value="read more"> </p>
+                </div>
+    
+                <div class="starbox3">
+                   <div class="l">
+                   </div>
+                   <div class="l1">
+                      <figure id="l11">
+                           <img src="star.png">
+                      </figure>
+                   </div>            
+                   <p id="lmn">web design</p>
+                   <p id="lmno">web design is a designing of web pages, basically we use HTML & CSS to design web pages for the websites</p>
+                   <p id="lmnop"> <input type="button" value="read more"> </p>
+                </div>
+    
+                <div class="starbox4">
+                   <div class="m">
+                   </div>
+                   <div class="m1">
+                      <figure id="m11">
+                           <img src="star.png">
+                      </figure>
+                   </div>            
+                   <p id="mno">web design</p>
+                   <p id="mnop">web design is a designing of web pages, basically we use HTML & CSS to design web pages for the websites</p>
+                   <p id="mnopq"> <input type="button" value="read more"> </p>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="TOP7">
+           
+            <p id="fokat">.</p>
+            <h1>our <span>portfolio</span></h1>
+            <p id="oo">Market portfolio is a portfolio consisting of a weighted sum of every asset in the market, with weights in the proportions that they exist in the market</p>
+           
+            <ul id="list2">
+                <li><input type="button" value="WEB DESIGN"></li>
+                <li><input type="button" value="GRAPHIC DESIGN"></li>
+                <li><input type="button" value="BRANDING"></li>
+                <li><input type="button" value="LOGO" id="lii"></li>
+                <li><input type="button" value="MARKETING"></li>
+                <li><input type="button" value="ADVERTISEMENT"></li>
+            </ul>
+
+            <div class="TOP7A">
+                <div class="TOP7A1">
+                    <p id="p1"><img src="p1.png"></p>
+                    <p id="p2"><img src="p2.png"></p>
+                    <p id="p3"><img src="p3.png"></p>
+                    <p id="p4"><img src="p4.png"></p>
+                    <p id="p5"><img src="p5.png"></p>
+                </div>
+                <div class="TOP7A2">
+                    <p id="p6"><img src="p6.png"></p>
+                    <p id="p7"><img src="p7.png"></p>
+                    <p id="p8"><img src="p8.png"></p>
+                    <p id="p9"><img src="p9.png"></p>
+                    <p id="p10"><img src="p10.png"></p>
+                </div>
+            </table>
+
+        </div>
+
+        <div class="TOP8">
+
+            <p id="fokat">.</p>
+            <h1>our <span>process</span></h1>
+            <p id="ooo">Process portfolio is a portfolio consisting of a weighted sum of every asset in the market, with weights in the proportions,</p>
+
+            <div class="TOP8A">
+                <div class="q">
+                     <figure id="logo6">
+                        <img src="mob.png">
+                        <div class="qA">1</div>
+                     </figure>
+                     <p id="aa">request call</p>
+                     <p id="aaa">request call for calling someone when he wants to connect</p>
+                </div>
+                <div class="r">
+                     <figure id="logo7">
+                        <img src="consul.png">
+                        <div class="rA">2</div>
+                     </figure>
+                     <p id="bb">consulation</p>
+                     <p id="bbb">request call for calling someone when he wants to connect</p>
+                </div>
+                <div class="s">
+                     <figure id="logo8">
+                        <img src="plan.png">
+                        <div class="sA">3</div>
+                     </figure>
+                     <p id="cc">palanning</p>
+                     <p id="ccc">request call for calling someone when he wants to connect</p>
+                </div>
+                <div class="t">
+                     <figure id="logo9">
+                        <img src="work.png">
+                        <div class="tA">4</div>
+                        <p id="dd">work process</p>
+                    </figure>
+                     <p id="ddd">request call for calling someone when he wants to connect</p>
+                </div>
+                <div class="u">
+                     <figure id="logo10">
+                        <img src="correc.png">
+                        <div class="uA">5</div>
+                     </figure>
+                     <p id="ee">correcting</p>
+                     <p id="eee">request call for calling someone when he wants to connect</p>
+                </div>
+                <div class="v">
+                     <figure id="logo11">
+                        <img src="deliv.png">
+                        <div class="qA">6</div>
+                     </figure>
+                     <p id="ff">deliver</p>
+                     <p id="fff">request call for calling someone when he wants to connect</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="TOP9">
+
+            <p id="fokat">.</p>
+            <h1>people <span>about us</span></h1>
+            <p id="oooo">People say that have the rightto say about us. Either negative or postive we accept & admit People say that have the rightto say about us</p>
+     
+            <div class="TOP9A">
+                <div class="TOP9A1">
+                    <figure id="logo12">
+                        <img src="people.png"> <p id="z1">Muhammad Izhan Faridi</p>
+                                               <p id="z2">A software engineer is a person who applies the principles of software engineering to the design, development, maintenance, testing, and evaluation of computer software</p>
+                    </figure>
+                </div>
+                <div class="TOP9A2">
+                    <figure id="logo12">
+                        <img src="people.png"> <p id="z1">Muhammad Izhan Faridi</p>
+                                               <p id="z2">A software engineer is a person who applies the principles of software engineering to the design, development, maintenance, testing, and evaluation of computer software</p>
+                    </figure>
+                </div>
+            </div>
+            <div class="liner"></div>
+            <div class="TOP9B">
+                <div class="TOP9B1">
+                    <figure id="logo12">
+                        <img src="people.png"> <p id="z1">Muhammad Izhan Faridi</p>
+                                               <p id="z2">A software engineer is a person who applies the principles of software engineering to the design, development, maintenance, testing, and evaluation of computer software</p>
+                    </figure>
+                </div>
+                <div class="TOP9B2">
+                    <figure id="logo12">
+                        <img src="people.png"> <p id="z1">Muhammad Izhan Faridi</p>
+                                               <p id="z2">A software engineer is a person who applies the principles of software engineering to the design, development, maintenance, testing, and evaluation of computer software</p>
+                    </figure>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="TOP10">
+
+            <p id="fokat">.</p>
+            <h1>our <span>skills</span></h1>
+            <p id="ooooo">A skill is the ability to carry out a task with determined results often within a given amount of time, energy, or both. Skills can often be divided into domain-general</p>
+        
+            <div class="TOP10A">
+                <div class="_45">
+                    <img src="45.png"> <br>
+                    success
+                </div>
+                <div class="_60">
+                    <img src="60.png"> <br>
+                    seo & ads
+                </div>
+                <div class="_75">
+                    <img src="75.png"> <br>
+                    branding
+                </div>
+                <div class="_80">
+                    <img src="80.png"> <br>
+                    web design
+                </div>
+            </div>
+
+        </div>
+
+        <div class="TOP11">
+
+            <p id="fokat">.</p>
+            <h1>start your new project</h1>
+
+            <div class="TOP11A">
+                <div class="TOP11A1">
+                    <input type="text" placeholder="YOUR NAME">
+                </div>
+
+                <div class="TOP11A2">
+                    <input type="email" placeholder="YOUR EMAIL">
+                </div>
+                
+                <div class="TOP11A3">
+                    <input type="number" placeholder="YOUR PHONE">
+                </div>
+
+                <div class="TOP11A4">
+                    <input type="button" value="SEND REQUEST">
+                </div>
+            </div>
+
+            <p id="oooooo">Thank you very much for your project in contacting us has no central editorial board Thank you very much for your project in contacting us</p>
+
+        </div>    
+
+        <div class="TOP12">
+
+            <p id="fokat">.</p>
+            <h1>our <span>contacts</span></h1>
+            <p id="ooooooo">Thank you for your interest in contacting us. Before proceeding, some important disclaimers: Wikipedia has no central editorial board</p>
+            
+            <figure id="locate">
+                <img src="place.png"> Block 18, F.B.Area, Karachi
+            </figure>
+
+            <div class="TOP12A">
+               <figure id="cont1"> <img src="telephone.png"> (304) 386-6719</figure>
+               <figure id="cont2"> <img src="telephone.png"> (317) 011-3001</figure>
+               <figure id="cont3"> <img src="message.png"> info@website.com</figure>
+            </div>
+
+            <figure id="map">
+                <img src="map.png">
+            </figure>
+
+        </div>
+
+        <div class="TOP13">
+
+            <p id="fokat">.</p>
+            
+            <div class="top13A">       
+                <figure id="ok">
+                    <img src="footer-logo.png">
+                </figure>
+
+                <p id="oooooooo">Ability to carry out a task with determined results often within a given amount of time, energy, or both. Skills can often be divided into domain-general</p>
+            
+                <p id="okay">
+                    &copy;<!--circle C--> Panacloud 2019
+                </p>
+            </div>
+
+            <div class="TOP13B">
+                <div class="TOP13B1">
+                    <p id="ser"> services </p>
+                    
+                    <ul id="serv">
+                       <li>  <input type="button" value="facilities">  </li>
+                       <li>  <input type="button" value="homeword">    </li>
+                       <li>  <input type="button" value="lifestyle">   </li>
+                       <li>  <input type="button" value="combination"> </li>
+                       <li>  <input type="button" value="deliver">     </li>
+                    </div>
+                </div>
+
+                <div class="TOP13B2">
+                    <p id="lin"> useful links </p>
+                    
+                    <ul id="link">              
+                        <li> <a href="https://www.google.com">click here to Google</a>       </li>
+                        <li> <a href="https://www.facebook.com">click here to Facebook</a>   </li>
+                        <li> <a href="https://www.youtube.com">click here to YouTube</a>     </li>
+                        <li> <a href="https://www.yahoo.com">click here to Yahoo</a>         </li>
+                        <li> <a href="https://www.instagram.com">click here to Instagram</a> </li>
+                    </li>
+                </div>
+
+                <div class="TOP13B3">
+                    <p id="con"> contacts </p>
+
+                    <figure id="cont">
+                        <img src="telephone.png"> +92(304)386-6719 <br>
+                        <img src="telephone.png"> +92(317)011-3001 <br>
+                        <img src="message.png">   info@website.com <br>
+                    </figure>
+
+                    <p id="conta">follow us</p>
+
+                    <div class="sociall">
+                        <p id="fbbttn"> <input type="button" value="f">    </p>
+                        <p id="twbttn"> <input type="button" value="tw">   </p>
+                        <p id="gbttn">  <input type="button" value="g+">   </p>
+                        <p id=inbttn>   <input type="button" value="in">   </p>
+                        <p id=tubebttn> <input type="button" value="Tube"> </p>
+                    </div>
+
+                </div>
+                
+                <div class="linerr"></div>
+
+            </div>
+
+    </body>
 </html>
